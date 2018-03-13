@@ -1,0 +1,36 @@
+I tried to make this for some practice and figured id share the code with you guys too.
+
+package Chapter3;
+// Guess the letter game
+class Guess2 {
+
+	public static void main(String[] args) 
+		throws java.io.IOException {
+		char ch, answer = 'A';
+		
+		System.out.println("Welcome to guess that letter!!!");
+		System.out.println();
+		
+		System.out.println("I'm thinking of a letter between A and Z.");
+		System.out.println("It must be a capital letter!");
+		System.out.println();
+		System.out.print("Can you guess it?: ");
+		
+		ch = (char) System.in.read(); //get a char
+		
+		System.out.println();
+		
+		if(ch == answer) System.out.println("**Correct!**");
+		else System.out.println("...Nope, wrong letter");
+		
+		System.out.println();
+		System.out.println("Play again?");
+		
+		
+
+	}
+
+}
+
+
+Have fun with this lol
