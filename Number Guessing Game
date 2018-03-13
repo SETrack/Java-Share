@@ -1,4 +1,4 @@
-I tried to make this for some practice and figured id share the code with you guys too.
+//I tried to make this for some practice and figured id share the code with you guys too.
 
 package Chapter3;
 // Guess the letter game
@@ -33,4 +33,4 @@ class Guess2 {
 }
 
 
-Have fun with this lol
+//Have fun with this lol
