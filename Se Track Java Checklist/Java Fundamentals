@@ -1,0 +1,45 @@
+package fundementals; // This is the first block in the sheet for the Java track called Java Fundamentals
+
+public class Fundementals {//start class
+
+	public static void main(String[] args) {//start main
+		//Basic variable assignments 
+		int a = 1;
+		double b = 2;
+		long c = 3;
+		int d = 4;
+		String one  = "one";
+		//------------------------------------------------
+		//Variable Math
+		
+		double f = a + b;
+		
+		System.out.println(a + b + f + (c * d));
+		
+		//-------------------------------------------------
+		//Hello World, console based
+		
+		System.out.println("Hello World!");
+		
+		//-------------------------------------------------
+		//If Statement
+		
+		if( a > b )System.out.println("How is this possible??");
+		
+		if( a < b )System.out.println("a is less than b");
+		
+		//--------------------------------------------------
+		//For loop
+		
+		for (a = 1; a <= 100; a++) {//start for loop block
+		
+		System.out.println(a);
+		}// end for loop block
+		
+		//---------------------------------------------------
+
+	
+
+	}//end main
+
+}//end class
